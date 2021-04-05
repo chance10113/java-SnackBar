@@ -17,7 +17,7 @@ At a high level, you will create snacks, vending machines, and customers. You wi
 
 ## Instructions and Completion Requirements
 
-* [ ] Please fork and clone this repository. This repository does not have a starter project, so create one inside of the cloned repository folder. Regularly commit and push your code as appropriate.
+* [X] Please fork and clone this repository. This repository does not have a starter project, so create one inside of the cloned repository folder. Regularly commit and push your code as appropriate.
 * [ ] When you are done, create a Pull Request (PR)
 * [ ] To submit the assignment, paste the URL of your branch into the assignment module in Canvas.
 
