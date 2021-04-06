@@ -1,4 +1,4 @@
-package snackBar.src;
+package src.snackBar;
 
 public class Main {
     public static void main(String[] args) {

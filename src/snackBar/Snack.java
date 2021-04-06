@@ -1,4 +1,4 @@
-package snackBar.src;
+package src.snackBar;
 
 public class Snack {
     private static int maxId = 1;
@@ -73,3 +73,4 @@ public String toString() {
     return "Snack { \n" + "id: " + id + "\n" + "name: " + name + "\n" + "cost: " + cost + "\n" + "quantity: " + quantity + "\n" + "vending machine id: " + vendingMachineId + "\n}";
 }
 }
+
