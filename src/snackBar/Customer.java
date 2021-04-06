@@ -36,7 +36,7 @@ public class Customer {
         cashOnHand = cashOnHand + cash;
     }
 
-    public void buySnacks(double cash) {
+    public void buySnack(double cash) {
         cashOnHand = cashOnHand - cash;
     }
 
