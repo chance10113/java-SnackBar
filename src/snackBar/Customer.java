@@ -40,6 +40,11 @@ public class Customer {
         cashOnHand = cashOnHand - cash;
     }
 
+    @Override
+    public String toString() {
+        return "Customer {\n" + "id: " + id + "\n" + "name: " + name + "CashOnHand: " + cashOnHand + "\n}";
+    }
+
 }
 
 
