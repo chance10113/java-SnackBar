@@ -34,5 +34,32 @@ public class Main {
         Jane.buySnack(Pretzel.buySnack(1));
         System.out.println("Jane's cash on hand is " + Jane.getCashOnHand());
         System.out.println("Quantity of pretzel is " + Pretzel.getQuantity() + "\n");
+
+        System.out.println("Bob buys 2 sodas");
+        Soda.buyQuantity(2);
+        Bob.buySnack(Soda.buySnack(2));
+        System.out.println("Bob's cash on hand is " + Bob.getCashOnHand());
+        System.out.println("Quantity of soda is " + Soda.getQuantity() + "\n");
+
+        System.out.println("Jane finds $10.00 and add's it to her cash on hand");
+        Jane.addCash(10.00);
+        System.out.println("Jane's cash on hand is " + Jane.getCashOnHand() + "\n");
+
+        System.out.println("Add 12 more pretzels");
+        Pretzel.addQuantity(12);
+        System.out.println("Quantity of pretzel is " + Pretzel.getQuantity() + "\n");
+
+        System.out.println("Bob buys 3 pretzels");
+        Pretzel.buyQuantity(3);
+        Bob.buySnack(Pretzel.buySnack(3));
+        System.out.println("Bob's cash on hand is " + Bob.getCashOnHand());
+        System.out.println("Quantity of pretzel is " + Pretzel.getQuantity() + "\n");
+
+        System.out.println(Chips.toString() + "\n");
+        System.out.println(ChocolateBar.toString() + "\n");
+        System.out.println(Pretzel.toString() + "\n");
+        System.out.println(Soda.toString() + "\n");
+        System.out.println(Water.toString() + "\n");
+
     }
 }
